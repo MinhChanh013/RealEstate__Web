@@ -1,0 +1,119 @@
+/* slide all */
+.swiper {
+  position: relative;
+  width: 80%;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slide-button {
+  position: absolute;
+  right: 25%;
+  bottom: -155px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-button .slide-button-prev,
+.slide-button .slide-button-next {
+  padding: 17px;
+  background-color: var(--white);
+  margin: 0 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-button .slide-button-prev {
+  background-color: var(--services-background);
+}
+
+.slide-button .slide-button-prev .icon-arrow:nth-child(1) {
+  color: var(--white);
+}
+
+.slide-button .slide-button-prev:hover,
+.slide-button .slide-button-nex:hover {
+}
+
+.slide-button .icon-arrow {
+  color: var(--services-background);
+  font-size: 23px;
+}
+
+/* service */
+
+.services-container .swiper-slide img {
+  width: 87%;
+  height: 87%;
+  object-fit: cover;
+}
+
+.services-container .swiper-slide p {
+  margin-top: 35px;
+  font-size: 22px;
+  color: var(--white);
+}
+
+/* comment */
+
+.swiper-comment {
+  margin-top: 150px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-comment .swiper-slide {
+  margin: 0 20px;
+  background-color: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 30px;
+}
+
+.comment__slide-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.comment__slide-button .icon-arrow {
+  font-size: 40px;
+  color: var(--services-background);
+  cursor: pointer;
+}
+.comment__slide-button .slide-button-prev,
+.comment__slide-button .slide-button-next {
+  border-radius: 50%;
+  padding: 6px 9px;
+  margin: 0 6px;
+}
+
+.comment__slide-button .slide-button-next {
+  background-color: var(--white);
+}
+
+.comment__slide-button .slide-button-prev .icon-arrow {
+  color: var(--white);
+}

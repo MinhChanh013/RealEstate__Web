@@ -1,0 +1,35 @@
+@media (max-width: 1024px) {
+  /* banner */
+  .banner-container .banner-content h2 {
+    font-size: 80px;
+  }
+  .banner-container .banner-content p {
+    max-width: 80%;
+    font-size: 20px;
+  }
+
+  /* popular */
+  .popular-content .popular-buy button {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* popular */
+  .popular-slide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .popular-content .popular-buy button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+}
+
+@media (max-width: 768px) {
+}
